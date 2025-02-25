@@ -1,0 +1,92 @@
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+/* Containers */
+.container, .form-container {
+    width: 80%;
+    margin: auto;
+    padding: 30px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+/* table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+
+}
+td, th {
+    padding: 8px;
+    border: 2px solid black; 
+    text-align: center;
+}
+
+td {
+    padding: 8px;
+    border: 1px solid black;
+    text-align: center;
+}
+.inventory{
+    background-color: #92b1c9; 
+    color: rgb(0, 0, 0);
+    font-size: 20px; 
+    padding: 10px;
+    text-align: center;
+}
+.gray-cell {
+    background-color: rgb(212, 209, 209); 
+    color: rgb(0, 0, 0); 
+}
+
+.supplier {
+    background-color: #ffd966;
+    font-weight: bold;
+}
+
+
+/* form style */
+form ul {
+    list-style: none;
+    padding: 0;
+}
+li {
+    margin-bottom: 15px;
+    text-align: left;
+}
+input, textarea, button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #cac4c4;
+    border-radius: 4px;
+}
+button {
+    background-color: #0074cc;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+    padding: 10px;
+}
+
+/* Navigation Links */
+.nav-link {
+    display: block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+    background-color: #0074cc;
+    padding: 10px;
+    border-radius: 5px;
+    width: 200px;
+    margin: 20px auto;
+}
